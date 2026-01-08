@@ -8,99 +8,126 @@
 </head>
 <body>
 
-<!-- Navbar -->
-<header>
-    <nav>
-        <h2 class="logo">Dheeraj</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Dheeraj Varma</h1>
+            <p>DevOps Engineer | Cloud | CI/CD | Kubernetes</p>
+            <div class="buttons">
+                <a href="#" class="btn">Download Resume</a>
+                <a href="#" class="btn outline">GitHub</a>
+                <a href="#" class="btn outline">LinkedIn</a>
+            </div>
+        </div>
+    </header>
 
-<!-- Hero Section -->
-<section class="hero">
-    <h1>Hi, I'm <span>Dheeraj Varma</span></h1>
-    <h3>DevOps Engineer</h3>
-    <p>Automating infrastructure, building CI/CD pipelines, and deploying scalable cloud solutions.</p>
-    <a href="#contact" class="btn">Hire Me</a>
-</section>
+    <!-- About -->
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                DevOps Engineer with 2+ years of experience in automating CI/CD pipelines,
+                managing cloud infrastructure, and deploying containerized applications.
+                Hands-on expertise in AWS, Docker, Kubernetes, Jenkins, GitHub Actions,
+                Terraform, and monitoring tools.
+            </p>
+        </div>
+    </section>
 
-<!-- About Section -->
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-        Dedicated DevOps Engineer with hands-on experience in CI/CD automation, containerization,
-        cloud infrastructure, and monitoring. Skilled in Docker, Kubernetes, Jenkins, Terraform,
-        and AWS with a strong focus on reliability and performance.
-    </p>
-</section>
+    <!-- Skills -->
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Cloud</h3>
+                    <p>AWS (EC2, S3, VPC, IAM, CloudWatch)</p>
+                </div>
+                <div class="card">
+                    <h3>CI/CD</h3>
+                    <p>Jenkins, GitHub Actions</p>
+                </div>
+                <div class="card">
+                    <h3>Containers</h3>
+                    <p>Docker, Kubernetes, Helm</p>
+                </div>
+                <div class="card">
+                    <h3>IaC</h3>
+                    <p>Terraform</p>
+                </div>
+                <div class="card">
+                    <h3>Monitoring</h3>
+                    <p>Prometheus, Grafana, ELK Stack</p>
+                </div>
+                <div class="card">
+                    <h3>OS & Tools</h3>
+                    <p>Linux, Git, Bash</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Skills Section -->
-<section id="skills" class="section bg">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <div class="skill">Linux</div>
-        <div class="skill">AWS</div>
-        <div class="skill">Docker</div>
-        <div class="skill">Kubernetes</div>
-        <div class="skill">Jenkins</div>
-        <div class="skill">GitHub Actions</div>
-        <div class="skill">Terraform</div>
-        <div class="skill">Prometheus</div>
-        <div class="skill">Grafana</div>
-        <div class="skill">Python</div>
-        <div class="skill">Bash</div>
-    </div>
-</section>
+    <!-- Projects -->
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
 
-<!-- Projects Section -->
-<section id="projects" class="section">
-    <h2>Projects</h2>
+            <div class="project">
+                <h3>End-to-End CI/CD Pipeline</h3>
+                <p>
+                    Built a Jenkins-based CI/CD pipeline to automate build, test,
+                    Docker image creation, and Kubernetes deployment on AWS.
+                </p>
+                <span>Tech: Jenkins, Docker, Kubernetes, AWS, GitHub</span>
+            </div>
 
-    <div class="project">
-        <h3>CI/CD Pipeline Automation</h3>
-        <p>
-            Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions,
-            integrating Docker and Kubernetes for automated deployments.
-        </p>
-    </div>
+            <div class="project">
+                <h3>AWS Infrastructure using Terraform</h3>
+                <p>
+                    Provisioned scalable AWS infrastructure using Terraform modules,
+                    including EC2, VPC, Security Groups, and IAM.
+                </p>
+                <span>Tech: Terraform, AWS</span>
+            </div>
 
-    <div class="project">
-        <h3>Cloud Infrastructure with Terraform</h3>
-        <p>
-            Provisioned AWS infrastructure including EC2, VPC, IAM, and S3 using Terraform
-            with reusable and modular code.
-        </p>
-    </div>
+            <div class="project">
+                <h3>Monitoring & Alerting Setup</h3>
+                <p>
+                    Implemented Prometheus and Grafana for Kubernetes monitoring
+                    with alerting for system health and resource usage.
+                </p>
+                <span>Tech: Prometheus, Grafana, Kubernetes</span>
+            </div>
+        </div>
+    </section>
 
-    <div class="project">
-        <h3>Monitoring & Observability</h3>
-        <p>
-            Implemented monitoring and alerting using Prometheus and Grafana
-            to ensure system reliability and performance.
-        </p>
-    </div>
-</section>
+    <!-- Experience -->
+    <section class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="card">
+                <h3>DevOps Engineer – AR Softcon</h3>
+                <p><strong>Client:</strong> The Exeter (Health Insurance)</p>
+                <ul>
+                    <li>Automated CI/CD pipelines using Jenkins and GitHub Actions</li>
+                    <li>Containerized applications using Docker</li>
+                    <li>Managed Kubernetes deployments</li>
+                    <li>Provisioned AWS infrastructure using Terraform</li>
+                    <li>Implemented monitoring and logging solutions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<!-- Contact Section -->
-<section id="contact" class="section bg">
-    <h2>Contact</h2>
-    <p>Email: <strong>dheerajboredha7791@gmail.com</strong></p>
-    <p>Location: Hyderabad, India</p>
-    <div class="socials">
-        <a href="#" target="_blank">LinkedIn</a>
-        <a href="#" target="_blank">GitHub</a>
-    </div>
-</section>
-
-<!-- Footer -->
-<footer>
-    <p>© 2026 Dheeraj Varma | DevOps Engineer</p>
-</footer>
+    <!-- Contact -->
+    <footer>
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: dheeraj.varma@email.com</p>
+            <p>Location: Hyderabad, India</p>
+            <p>© 2026 Dheeraj Varma</p>
+        </div>
+    </footer>
 
 </body>
 </html>
